@@ -71,6 +71,7 @@ function loadPicture() {
     img.onload = () => {
       drawImage();
     };
+    selectedFile.value = selectedFile.defaultValue;
   };
 }
 
